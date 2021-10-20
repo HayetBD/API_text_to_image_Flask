@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+<!--Enter Name -->
+<div class="enter-name">
+  <span><h2>This is the generated image !</h2><br>
+    <!-- img src="{{url_for('static', filename='imgtest.jpg')}}" /-->
+    <img src="{{url_for('static', filename=imgname)}}" />
+  </span>
+</div>
+{% endblock %}
